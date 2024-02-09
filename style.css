@@ -1,0 +1,15 @@
+main {
+  background-color: beige;
+  width: 75%;
+  float: left;
+  text-align: center;
+}
+
+aside {
+  background-color: cadetblue;
+  width: 22%;
+  float: right;
+}
+footer {
+  clear: both;
+}
