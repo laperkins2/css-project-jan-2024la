@@ -1,15 +1,44 @@
+body {
+  background-color: black;
+}
+#me {
+  float: left;
+  width: 200px;
+  margin: 5px;
+  border: solid black;
+  height: 200px;
+}
+header {
+  clear: both;
+  text-align: center;
+  padding: 3px;
+  color: white;
+  font-size: 100%;
+}
 main {
   background-color: beige;
-  width: 75%;
+  width: 78%;
   float: left;
+}
+main > h1 {
   text-align: center;
 }
-
+main > p {
+  font-size: 30px;
+  font-style: italic;
+}
 aside {
-  background-color: cadetblue;
+  background-color: rgb(192, 192, 133);
   width: 22%;
   float: right;
+  text-align: left;
+}
+ul > li > a {
+  font-size: 20px;
 }
 footer {
   clear: both;
+  text-align: center;
+  padding: 3px;
+  color: white;
 }
