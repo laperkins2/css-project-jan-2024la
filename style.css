@@ -1,12 +1,12 @@
 body {
-  background-color: black;
+  background-image: url('team2.jpg');
 }
 #me {
   float: left;
-  width: 200px;
+  width: 126.5px;
   margin: 5px;
   border: solid black;
-  height: 200px;
+  height: 188.25px;
 }
 header {
   clear: both;
@@ -17,22 +17,27 @@ header {
 }
 main {
   background-color: beige;
-  width: 78%;
+  width: 70%;
   float: left;
+  height: max(250px, 390px);
 }
-main > h1 {
+main h1 {
   text-align: center;
 }
 main > p {
-  font-size: 30px;
+  font-size: 26px;
   font-style: italic;
+  text-align: none;
 }
 aside {
   background-color: rgb(192, 192, 133);
   width: 22%;
   float: right;
+  height: max(250px, 390px);
   text-align: left;
+  border: solid gold 1px;
 }
+
 ul > li > a {
   font-size: 20px;
 }
