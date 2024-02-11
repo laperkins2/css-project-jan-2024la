@@ -1,0 +1,77 @@
+body {
+  background-image: url(water.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  text-align: center;
+}
+#one {
+  float: right;
+}
+#two {
+  float: left;
+  clear: right;
+}
+#three {
+  float: right;
+  clear: both;
+}
+#four {
+  float: left;
+  clear: both;
+}
+#five {
+  float: right;
+  clear: both;
+  margin-bottom: 10px;
+}
+#six {
+  clear: both;
+}
+#pizza {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 5px rgba(86, 100, 23, 0.534);
+}
+#bbq {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 5px rgba(105, 122, 77, 0.521);
+}
+#bowl {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 5px rgb(107, 124, 124);
+}
+#fish {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 5px rgb(206, 188, 141);
+}
+#exer {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 5px rgb(107, 124, 124);
+}
+#four {
+  clear: both;
+}
+a {
+  border: 2px solid balck;
+  border-radius: 12px;
+  background-color: whitesmoke;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover {
+  background-color: black;
+  color: white;
+}

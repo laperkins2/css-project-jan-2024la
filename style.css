@@ -19,7 +19,6 @@ main {
   background-color: beige;
   width: 70%;
   float: left;
-  height: max(250px, 390px);
 }
 main h1 {
   text-align: center;
